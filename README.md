@@ -1,4 +1,4 @@
-# CRONDA (Cloud Resource Organization and Deletion Automation)
+# CRONDA (Cloud Resource Operations and Deletion Automation)
 
 CRONDA is an open-source tool designed to automate the management and cleanup of Google Cloud Storage (GCS) buckets. It provides both a web interface and CLI for managing cloud resources efficiently.
 
@@ -88,18 +88,3 @@ cronda delete gs://your-bucket-name --no-dry-run
 # Cleanup old buckets
 cronda cleanup --days 30 --dry-run
 ```
-
-## Development
-
-### Project Structure
-
-
-### Running Tests
-
-```bash
-python -m pytest tests/
-```
-
-- React for the frontend framework
-- Google Cloud Storage API
-- Material-UI for the frontend components
