@@ -2,17 +2,6 @@
 
 CRONDA is an open-source tool designed to automate the management and cleanup of Google Cloud Storage (GCS) buckets. It provides both a web interface and CLI for managing cloud resources efficiently.
 
-## Features
-
-- 🖥️ Modern web dashboard for bucket management
-- 🔍 Automatic scanning of old and unused buckets
-- 🏷️ Tag-based bucket organization
-- 🗑️ Safe deletion with confirmation and dry-run options
-- 📊 Analytics and reporting
-- 🔐 Authentication and authorization
-- ⚡ CLI for automation and scripting
-- 📝 Detailed deletion history
-
 ## Installation
 
 ### Prerequisites
@@ -104,18 +93,6 @@ cronda cleanup --days 30 --dry-run
 
 ### Project Structure
 
-```
-cronda/
-├── src/                    # Backend source code
-│   ├── api/               # FastAPI application
-│   ├── cli/               # CLI implementation
-│   ├── services/          # Business logic
-│   └── utils/             # Utility functions
-├── frontend/              # React frontend
-├── tests/                 # Test suite
-├── logs/                  # Log files
-└── requirements.txt       # Python dependencies
-```
 
 ### Running Tests
 
@@ -123,25 +100,6 @@ cronda/
 python -m pytest tests/
 ```
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- FastAPI for the backend framework
 - React for the frontend framework
 - Google Cloud Storage API
 - Material-UI for the frontend components
-
-## Support
-
-For support, please open an issue in the GitHub repository or contact the maintainers. 
