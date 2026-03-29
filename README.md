@@ -1,8 +1,5 @@
 # CRONDA (Cloud Resource Operations and Deletion Automation)
-
-CRONDA is an open-source tool designed to automate the management and cleanup of Google Cloud Storage (GCS) buckets. It provides both a web interface and CLI for managing cloud resources efficiently.
-
-## Installation
+It is a Google Cloud Resource management tool for Free tier monitoring. It can be be used for GCS (Google Cloud Storage - Bucket) and GCE (Google Compute Engine - VM) resources for Scanning and Deletion processes. Scanning includes tag analysis and filtering options. With CRONDA, one can perform batch analysis & batch deletion process across different projects. Batch deletion also includes a --dry-run capability for safe-deletions. 
 
 ### Prerequisites
 
@@ -57,8 +54,6 @@ npm install
 ```bash
 npm start
 ```
-
-## Usage
 
 ### Web Interface
 
